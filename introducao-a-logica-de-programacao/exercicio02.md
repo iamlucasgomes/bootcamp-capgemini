@@ -1,5 +1,9 @@
 # Exercicio-02
 
+Faça um algoritmo para informar à Joãozinho se ele foi aprovado na matéria de
+Lógica para programação. Joãozinho fez 3 provas e a média necessária para ser
+aprovado é de 7;
+
 ## Entrada de dados
   
   nota1,
