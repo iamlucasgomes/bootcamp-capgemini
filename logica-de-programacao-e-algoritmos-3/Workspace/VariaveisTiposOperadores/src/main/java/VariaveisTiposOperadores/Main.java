@@ -10,22 +10,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // TIPOS DE VARI¡VEIS
+       // TIPOS DE VARI√ÅVEIS
         //======================================================================
         /*
-            As v·riaveis podem ser divididas em dois tipos: Variaveis primitivas e n„o primitivas (referÍncia)
+            As v√°riaveis podem ser divididas em dois tipos: Variaveis primitivas e n√£o primitivas (refer√™ncia)
             
-            Vari·veis primitivas s„o aquelas que foram criadas com a linguagem 
-            de programaÁ„o e servem para armazenar valores simples, como por 
-            exemplo um n˙mero, um valor lÛgico ou atÈ mesmo um caractere.
+            Vari√°veis primitivas s√£o aquelas que foram criadas com a linguagem 
+            de programa√ß√£o e servem para armazenar valores simples, como por 
+            exemplo um n√∫mero, um valor l√≥gico ou at√© mesmo um caractere.
         
-            J· as vari·veis n„o primitivas (referÍncia) s„o aquelas que foram 
+            J√° as vari√°veis n√£o primitivas (refer√™ncia) s√£o aquelas que foram 
             criadas com o aprimoramento da linguagem. Elas servem para armazenar 
             valores mais complexos.
          */
         
         
-        //Exemplos de tipos de vari·veis primitivas
+        //Exemplos de tipos de vari√°veis primitivas
+
         byte idade;
         short pontosAcumulados;
         int quantidadeUsuarios;
@@ -35,27 +36,28 @@ public class Main {
         char genero;
         
         
-        /*  
-            Tipos, tamanhos e valores default das vari·veis primitivas:
+         /*  
+            Tipos, tamanhos e valores default das vari√°veis primitivas:
         
-            Tipo 	Tamanho (bits) 	Faixa                                                           Valor Padr„o
+            Tipo 	Tamanho (bits) 	Faixa                                                           Valor Padr√£o
             byte 	8               -128 a 127                                                      0
             short 	16              -32.768 a 32.767                                                0
-            int 	32              -231 a 231 ñ 1                                                  0
+            int 	32              -231 a 231 ‚Äì 1                                                  0
             long 	64              -263 a 263 -1                                                   0L
-            float 	32              IEEE 754 ±1,40129846432481707e-45 a 3,40282346638528860e+38 	0.0f
-            double 	64              IEEE 754 ±4,94065645841246544e-324 a 1,79769313486231570e+308   0.0d
+            float 	32              IEEE 754 ¬±1,40129846432481707e-45 a 3,40282346638528860e+38 	0.0f
+            double 	64              IEEE 754 ¬±4,94065645841246544e-324 a 1,79769313486231570e+308   0.0d
         */
         
         
-        //Exemplos de tipos vari·ries n„o primitivas
+        //Exemplos de tipos vari√°ries n√£o primitivas
+
         String nome;
         Date dataNascimento;
         
         
-        /*
-            Note que nas vari·veis primitivas o tipo inicia com uma letra min˙scula,
-            j· nas vari·veis n„o primitivas inicia com uma letra maiuscula
+         /*
+            Note que nas vari√°veis primitivas o tipo inicia com uma letra min√∫scula,
+            j√° nas vari√°veis n√£o primitivas inicia com uma letra maiuscula
         */
         //======================================================================
         
@@ -63,12 +65,12 @@ public class Main {
         //OPERADORES
         //======================================================================
         /*
-            Java conta com 5 operadores aritmÈticos:
+            Java conta com 5 operadores aritm√©ticos:
         
             Soma            (+)
-            SubtraÁ„o       (-)
-            MultiplicaÁ„o   (*)
-            Divis„o         (/)
+            Subtra√ß√£o       (-)
+            Multiplica√ß√£o   (*)
+            Divis√£o         (/)
             Resto           (%)
         */
         
@@ -76,15 +78,15 @@ public class Main {
         int pontosEquipeA = 10;
         int pontosEquipeB = 20;
         
-        //Exemplo de utilizaÁ„o do operador da ADI«√O
+        //Exemplo de utiliza√ß√£o do operador da ADI√á√ÉO
         int totalSoma = pontosEquipeA + pontosEquipeB;
-        //Exemplo de utilizaÁ„o do operador da SUBTRA«√O
+        //Exemplo de utiliza√ß√£o do operador da SUBTRA√á√ÉO
         int totalSubtracao = pontosEquipeA - pontosEquipeB;
-        //Exemplo de utilizaÁ„o do operador da MULTIPLICA«√O
+        //Exemplo de utiliza√ß√£o do operador da MULTIPLICA√á√ÉO
         int totalMultiplicacao = pontosEquipeA * pontosEquipeB;
-        //Exemplo de utilizaÁ„o do operador da DIVIS√O
+        //Exemplo de utiliza√ß√£o do operador da DIVIS√ÉO
         int totalDivisao = pontosEquipeA / pontosEquipeB;
-        //Exemplo de utilizaÁ„o do operador de RESTO  
+        //Exemplo de utiliza√ß√£o do operador de RESTO  
         int totalResto = pontosEquipeA % pontosEquipeB;
         //======================================================================
     }

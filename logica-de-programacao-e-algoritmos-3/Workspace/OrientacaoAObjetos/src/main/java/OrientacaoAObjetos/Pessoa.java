@@ -8,7 +8,7 @@ package OrientacaoAObjetos;
 //Classe que representa uma pessoa
 public class Pessoa {
 
-    //Atributos de uma pessoa, necess·rios para a resoluÁ„o do problema
+    //Atributos de uma pessoa, necess√°rios para a resolu√ß√£o do problema
     public float peso;
     public float altura;
 
@@ -17,7 +17,7 @@ public class Pessoa {
 
     }
     
-    //AÁ„o que a pessoa pode executar
+    //A√ß√£o que a pessoa pode executar
     public float calcularIMC(){
         float imc = peso / (altura * altura);
         return imc;

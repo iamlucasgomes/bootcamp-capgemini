@@ -8,37 +8,36 @@ public class Main {
     public static void main(String[] args) {
         
         
-        //Esse È um coment·rio de linha: Usado para fazer coment·rios breves, com poucos detalhes
+       //Esse √© um coment√°rio de linha: Usado para fazer coment√°rios breves, com poucos detalhes
         
         /*
-            Esse È um coment·rio de Bloco:
-
-            Usado fazer coment·rios mais elaborados, 
-            quando o algoritmo precisa de uma explicaÁ„o um pouco mais detalhada
+            Esse √© um coment√°rio de Bloco:
+            Usado fazer coment√°rios mais elaborados, 
+            quando o algoritmo precisa de uma explica√ß√£o um pouco mais detalhada
         */
         
         /**
-         * Esse È um coment·rio javadoc
+         * Esse √© um coment√°rio javadoc
          * 
-         * Utilizado para documentar o cÛdigo da aplicaÁ„o e gerar os documentos
-         * de documentaÁ„o. Nesse tipo de coment·rio È possÌvel usar v·rios
-         * recursos como HTML e tags que ajudam a formatar a documentaÁ„o.
+         * Utilizado para documentar o c√≥digo da aplica√ß√£o e gerar os documentos
+         * de documenta√ß√£o. Nesse tipo de coment√°rio √© poss√≠vel usar v√°rios
+         * recursos como HTML e tags que ajudam a formatar a documenta√ß√£o.
          * 
          * Exemplos de tags:
          * 
-         * @author - Especifica o autor da classe ou do mÈtodo em quest„o.
-         * @deprecated - Identifica classes ou mÈtodos obsoletos. … interessante informar nessa tag, quais mÈtodos ou classes podem ser usadas como alternativa ao mÈtodo obsoleto.
-         * @link - Possibilita a definiÁ„o de um link para um outro documento local ou remoto atravÈs de um URL.
-         * @param - Mostra um par‚metro que ser· passado a um mÈtodo.
-         * @return - Mostra qual o tipo de retorno de um mÈtodo.
-         * @see - Possibilita a definiÁ„o referÍncias de classes ou mÈtodos, que podem ser consultadas para melhor compreender idÈia daquilo que est· sendo comentada.
-         * @since - Indica desde quando uma classe ou mÈtodos foi adicionado na aplicaÁ„o.
-         * @throws - Indica os tipos de exceÁıes que podem ser lanÁadas por um mÈtodo.
-         * @version - Informa a vers„o da classe.
+         * @author - Especifica o autor da classe ou do m√©todo em quest√£o.
+         * @deprecated - Identifica classes ou m√©todos obsoletos. √â interessante informar nessa tag, quais m√©todos ou classes podem ser usadas como alternativa ao m√©todo obsoleto.
+         * @link - Possibilita a defini√ß√£o de um link para um outro documento local ou remoto atrav√©s de um URL.
+         * @param - Mostra um par√¢metro que ser√° passado a um m√©todo.
+         * @return - Mostra qual o tipo de retorno de um m√©todo.
+         * @see - Possibilita a defini√ß√£o refer√™ncias de classes ou m√©todos, que podem ser consultadas para melhor compreender id√©ia daquilo que est√° sendo comentada.
+         * @since - Indica desde quando uma classe ou m√©todos foi adicionado na aplica√ß√£o.
+         * @throws - Indica os tipos de exce√ß√µes que podem ser lan√ßadas por um m√©todo.
+         * @version - Informa a vers√£o da classe.
          * 
-         * Exemplos de utilizaÁ„o de HTML:
+         * Exemplos de utiliza√ß√£o de HTML:
          * 
-         * <b>TÌtulo em destaque</b>
+         * <b>T√≠tulo em destaque</b>
          */
         
     }

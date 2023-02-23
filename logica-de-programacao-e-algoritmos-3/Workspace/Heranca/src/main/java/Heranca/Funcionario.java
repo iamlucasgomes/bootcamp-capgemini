@@ -8,7 +8,7 @@ import java.util.Date;
  */
 public class Funcionario {
     
-    //Atributos (Estão privados para garantir o encapsulamento das informações de casa objeto)
+    //Atributos (EstÃ£o privados para garantir o encapsulamento das informaÃ§Ãµes de cada objeto)
     private String nome;
     private Date dataNascimento;
     private String cpf;
@@ -59,6 +59,6 @@ public class Funcionario {
         return "Nome: " + this.getNome() + "\n" +
                "Data de nascimento: " + getDataNascimento().toString() + "\n" +
                "CPF: " + this.getCpf() + "\n " +
-               "Salário: " + getSalario();
+               "Salï¿½rio: " + getSalario();
     }
 }

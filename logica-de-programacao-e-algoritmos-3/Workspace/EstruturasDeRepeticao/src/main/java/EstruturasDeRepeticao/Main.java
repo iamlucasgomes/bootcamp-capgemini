@@ -10,22 +10,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //ESTRUTURAS DE REPETIÇÃO
+        //ESTRUTURAS DE REPETIÃ‡ÃƒO
         //======================================================================
         /*
-            Como você já deve ter visto, estruturas de repetição servem para
-            fazer com que um trecho de código deseja executado de forma repetida,
-            podendo essa repetição ter um número conhecido ou não de vezes.
-            Em Java existem duas estruturas de repetição:
+            Como vocÃª jÃ¡ deve ter visto, estruturas de repetiÃ§Ã£o servem para
+            fazer com que um trecho de cÃ³digo deseja executado de forma repetida,
+            podendo essa repetiÃ§Ã£o ter um nÃºmero conhecido ou nÃ£o de vezes.
+            Em Java existem duas estruturas de repetiÃ§Ã£o:
             
             1 - while (Correspondente ao "enquanto" no portugol)
             2 - for (Correspondente ao "para" no portugol)
         
-            Em ambas estruturas é preciso definir uma condição de parada para
-            garantir que não haja um loop infinito. Os oepradores possíveis de
-            serem utilizados são os operadores relacionais e lógicos
+            Em ambas estruturas Ã© preciso definir uma condiÃ§Ã£o de parada para
+            garantir que nÃ£o haja um loop infinito. Os oepradores possÃ­veis de
+            serem utilizados sÃ£o os operadores relacionais e lÃ³gicos
         
-            Os operadores relacionais existentes na linguagem são:
+            Os operadores relacionais existentes na linguagem sÃ£o:
             1 - Maior           (>) 
             2 - Maior ou igual  (>=)
             3 - Menor           (<)
@@ -33,32 +33,33 @@ public class Main {
             5 - Diferente       (!=)
             6 - Igual           (==)
         
-            Os operadores lógicos existentes na linguagem são:
+            Os operadores lÃ³gicos existentes na linguagem sÃ£o:
             1 - Operador E      (&&)
             2 - Operador OU     (||)
-            3 - Operador NÃO    (!)
+            3 - Operador NÃƒO    (!)
         
-            Precedência dos Operadores:
-            Ordem 	Tipo de Operador 	Precedência
-            1           Pós Fixo                expr++   expr–
-            2           Pré fixo e Unário       ++expr   –expr   +expr   -expr   !
+            PrecedÃªncia dos Operadores:
+            Ordem 	Tipo de Operador 	PrecedÃªncia
+            1           PÃ³s Fixo                expr++   exprâ€“
+            2           PrÃ© fixo e UnÃ¡rio       ++expr   â€“expr   +expr   -expr   !
             3           Multiplicativo          *    /    %
-            4           Aditivo                 +    –
+            4           Aditivo                 +    â€“
             5           Relacional              >    >=    <=    <
             6           Igualdade               ==    !=
-            7           AND Lógico              &&
-            8           OR Lógico               ||
-            9           Atribuição              =   +=   -=   *=   /=   %=
+            7           AND LÃ³gico              &&
+            8           OR LÃ³gico               ||
+            9           AtribuiÃ§Ã£o              =   +=   -=   *=   /=   %=
          */
         //======================================================================
         // ESTRUTURA WHILE
         //======================================================================
         /*
-            A estrutura while é utilizada quando a quantidade de repetições
-            necessárias não for preciamente conhecida. Ex: quando você quer 
-            repetir algumas instruções N vezes.
+            A estrutura while Ã© utilizada quando a quantidade de repetiÃ§Ãµes
+            necessÃ¡rias nÃ£o for preciamente conhecida. Ex: quando vocÃª quer 
+            repetir algumas instruÃ§Ãµes N vezes.
          */
         //Exemplo de estrutura simples
+
         boolean desejaRepetir = true;
 
         Scanner leitor = new Scanner(System.in);
@@ -67,47 +68,48 @@ public class Main {
         byte idade;
 
         while (desejaRepetir = true) {
-            System.out.println("Digite o nome do usuário");
+            System.out.println("Digite o nome do usuï¿½rio");
             nome = leitor.nextLine();
 
-            System.out.println("Digite a idade do usuário");
+            System.out.println("Digite a idade do usuï¿½rio");
             idade = leitor.nextByte();
 
-            System.out.println(nome + " têm " + idade + " anos!");
+            System.out.println(nome + " tï¿½m " + idade + " anos!");
 
             desejaRepetir = leitor.nextBoolean();
         }
 
-        //======================================================================
+         //======================================================================
         // ESTRUTURA FOR
         //======================================================================
         /* 
-            A estrutura de repetição for é indicada para as situações onde
-            previamente se sabe quantas repetições serão necessárias. 
+            A estrutura de repetiÃ§Ã£o for Ã© indicada para as situaÃ§Ãµes onde
+            previamente se sabe quantas repetiÃ§Ãµes serÃ£o necessÃ¡rias. 
         
-            Essa estrutura é composta por 3 partes:
-            1 - Criação da variável de controle da estrutura
-            2 - Condição de parada
+            Essa estrutura Ã© composta por 3 partes:
+            1 - CriaÃ§Ã£o da variÃ¡vel de controle da estrutura
+            2 - CondiÃ§Ã£o de parada
             3 - Incremento
         
-            Cada uma dessas partes é separada por um ";"
+            Cada uma dessas partes Ã© separada por um ";"
          */
+
         for (int i = 0; i < 10; i++) {
-            System.out.println("O valor de i é: " + i);
+            System.out.println("O valor de i ï¿½: " + i);
         }
 
         /*
-            Algumas coisas que você deve tormar cuidado quando trabalha com
-            estruturas de repetição é em garantir que a condição de parada
-            em algum momento seja atentida caso contrário sua estrutura de
-            repetição ficará em um loop infinito
+            Algumas coisas que vocÃª deve tormar cuidado quando trabalha com
+            estruturas de repetiÃ§Ã£o Ã© em garantir que a condiÃ§Ã£o de parada
+            em algum momento seja atentida caso contrÃ¡rio sua estrutura de
+            repetiÃ§Ã£o ficarÃ¡ em um loop infinito
         
-            Outra coisa que você não deve fazer é criar variáveis dentro de uma
-            estrutura de repetição. Caso você faça isso, a cada repetição da 
-            estrutura seu algoritmo estará alocando memória do computador e 
-            isso fará com que sua aplicação tenha um alto consumo de memória.
-            Caso você precise ler valores dentro da estrutura, crie as variáveis
-            de leitura fora da estrutura repetição 
+            Outra coisa que vocÃª nÃ£o deve fazer Ã© criar variÃ¡veis dentro de uma
+            estrutura de repetiÃ§Ã£o. Caso vocÃª faÃ§a isso, a cada repetiÃ§Ã£o da 
+            estrutura seu algoritmo estarÃ¡ alocando memÃ³ria do computador e 
+            isso farÃ¡ com que sua aplicaÃ§Ã£o tenha um alto consumo de memÃ³ria.
+            Caso vocÃª precise ler valores dentro da estrutura, crie as variÃ¡veis
+            de leitura fora da estrutura repetiÃ§Ã£o 
          */
     }
 }

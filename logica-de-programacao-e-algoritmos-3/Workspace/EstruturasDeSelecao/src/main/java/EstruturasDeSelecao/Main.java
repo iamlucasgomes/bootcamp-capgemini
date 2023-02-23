@@ -8,22 +8,22 @@ public class Main {
     
     public static void main(String[] args) {
        
-        //ESTRUTURAS DE SELE«√O
+         //ESTRUTURAS DE SELE√á√ÉO
         //======================================================================
         /*
-            Como vocÍ j· deve ter visto, estruturas de seleÁ„o servem para
-            fazer desvios pelo cÛdigo, fazendo com que trechos de cÛdigo sejam
-            executados ou ignorados durante a a execuÁ„o dependendo de uma 
-            condiÁ„o previamente definida.
-            Em Java existem duas estruturas de seleÁ„o:
+            Como voc√™ j√° deve ter visto, estruturas de sele√ß√£o servem para
+            fazer desvios pelo c√≥digo, fazendo com que trechos de c√≥digo sejam
+            executados ou ignorados durante a a execu√ß√£o dependendo de uma 
+            condi√ß√£o previamente definida.
+            Em Java existem duas estruturas de sele√ß√£o:
             
             1 - if (Correspondente ao "se" no portugol)
             2 - switch (Correspondente ao "caso" no portugol)
         
-            Em ambas estruturas È possivel utilizar os operadores relacionais e
-            lÛgicos
+            Em ambas estruturas √© possivel utilizar os operadores relacionais e
+            l√≥gicos
         
-            Os operadores relacionais existentes na linguagem s„o:
+            Os operadores relacionais existentes na linguagem s√£o:
             1 - Maior           (>) 
             2 - Maior ou igual  (>=)
             3 - Menor           (<)
@@ -31,22 +31,22 @@ public class Main {
             5 - Diferente       (!=)
             6 - Igual           (==)
         
-            Os operadores lÛgicos existentes na linguagem s„o:
+            Os operadores l√≥gicos existentes na linguagem s√£o:
             1 - Operador E      (&&)
             2 - Operador OU     (||)
-            3 - Operador N√O    (!)
+            3 - Operador N√ÉO    (!)
         
-            PrecedÍncia dos Operadores:
-            Ordem 	Tipo de Operador 	PrecedÍncia
-            1           PÛs Fixo                expr++   exprñ
-            2           PrÈ fixo e Un·rio       ++expr   ñexpr   +expr   -expr   !
+            Preced√™ncia dos Operadores:
+            Ordem 	Tipo de Operador 	Preced√™ncia
+            1           P√≥s Fixo                expr++   expr‚Äì
+            2           Pr√© fixo e Un√°rio       ++expr   ‚Äìexpr   +expr   -expr   !
             3           Multiplicativo          *    /    %
-            4           Aditivo                 +    ñ
+            4           Aditivo                 +    ‚Äì
             5           Relacional              >    >=    <=    <
             6           Igualdade               ==    !=
-            7           AND LÛgico              &&
-            8           OR LÛgico               ||
-            9           AtribuiÁ„o              =   +=   -=   *=   /=   %=
+            7           AND L√≥gico              &&
+            8           OR L√≥gico               ||
+            9           Atribui√ß√£o              =   +=   -=   *=   /=   %=
          */
         //======================================================================
         // ESTRUTURA IF
@@ -55,6 +55,7 @@ public class Main {
             A estrutura if pode ser montada de forma simples ou aninhada.
          */
         //Exemplo de estrutura simples
+
         int media = 7;
 
         if (media >= 7) {
@@ -64,11 +65,12 @@ public class Main {
         }
 
         //Exemplo de estrututa aninhada
+
         if (media >= 7) {
             System.out.println("Aprovado");
         } else {
             if (media >= 5) {
-                System.out.println("Em recuperaÁ„o");
+                System.out.println("Em recuperaÔøΩÔøΩo");
             } else {
                 System.out.println("Reprovado");
             }
@@ -78,17 +80,17 @@ public class Main {
         // ESTRUTURA SWITCH
         //======================================================================
         /* 
-            A estrutura de seleÁ„o switch testa o valor contido em uma vari·vel 
+            A estrutura de sele√ß√£o switch testa o valor contido em uma vari√°vel 
             e o compara com os valores fornecidos em cada caso, representados pela
-            palavra reservada case. Podemos ter quantos casos forem necess·rios
-            na estrutura, e quando um dos valores corresponder ao da vari·vel de
-            teste, todo o cÛdigo que est· dentro daquele bloco do caso ser· 
+            palavra reservada case. Podemos ter quantos casos forem necess√°rios
+            na estrutura, e quando um dos valores corresponder ao da vari√°vel de
+            teste, todo o c√≥digo que est√° dentro daquele bloco do caso ser√° 
             executado.
         
-            A v·riavel que ser· utilizada no controle da estrutura pode ser dos
-            tipos primitivos como: int, char, byte e tambÈm do tipo String (
-            n„o s„o permitidos tipos como float, double pois estes trabalham
-            com n˙meros com casas decimais)
+            A v√°riavel que ser√° utilizada no controle da estrutura pode ser dos
+            tipos primitivos como: int, char, byte e tamb√©m do tipo String (
+            n√£o s√£o permitidos tipos como float, double pois estes trabalham
+            com n√∫meros com casas decimais)
         
          */
         int codigoProduto = 1;

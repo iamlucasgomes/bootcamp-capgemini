@@ -22,7 +22,7 @@ public class ConnectionFactory {
             Class.forName(DRIVER);
             return DriverManager.getConnection(URL, USER, PASS);
         } catch (Exception ex) {
-            throw new RuntimeException("Erro na conex„o com o banco de dados", ex);
+            throw new RuntimeException("Erro na conex√£o com o banco de dados", ex);
         }
     }
     
@@ -32,7 +32,7 @@ public class ConnectionFactory {
                 connection.close();
             }
         } catch (Exception ex) {
-            throw new RuntimeException("Erro ao fechar a conex„o com o banco de dados", ex);
+            throw new RuntimeException("Erro ao fechar a conex√£o com o banco de dados", ex);
         }
     }
     
@@ -43,7 +43,7 @@ public class ConnectionFactory {
                 statement.close();
             }
         } catch (Exception ex) {
-            throw new RuntimeException("Erro ao fechar a conex„o com o banco de dados", ex);
+            throw new RuntimeException("Erro ao fechar a conex√£o com o banco de dados", ex);
         }
         
     }

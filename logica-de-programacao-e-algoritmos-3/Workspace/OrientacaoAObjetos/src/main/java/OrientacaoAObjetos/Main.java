@@ -7,85 +7,86 @@ package OrientacaoAObjetos;
 public class Main {
 
     public static void main(String[] args) {
-        
-        //ORIENTA«√O A OBJETOS
-        //======================================================================
+
+        // ORIENTA√á√ÉO A OBJETOS
+        // ======================================================================
         /*
-            A programaÁ„o orientada a objetos È um paradigma de programaÁ„o
-            criado na decada de 60 a partir da linguagem de programaÁ„o 
-            SmallTalk e que se difundiu amplamente nos dias atuais.
-        
-            A POO (ProgramaÁ„o Orientada a Objetos) foi criada para tentar 
-            aproximar o mundo real do mundo virtual: a idÈia fundamental È 
-            tentar simular o mundo real dentro do computador. Para isso, nada 
-            mais natural do que utilizar Objetos, afinal, nosso mundo È composto
-            de objetos.
-        
-            Na POO o programador È respons·vel por moldar o mundo dos objetos, 
-            e explicar para estes objetos como eles devem interagir entre si. 
-            
-            Cada objeto possui suas prÛprias informaÁıes (atributos) e podem
-            realizar um conjunto de aÁıes prÈ definidos(mÈtodos). A interaÁ„o
-            entre objeto acontece exatamente quando um objeto "solicita" que 
-            o outro objeto execute uma de suas aÁıes(mÈtodos).
-            
-            Para ser criado o objeto precisa de um "molde" e esse molde È a 
-            Classe, nela ser„o descritas quais informaÁıes o objeto poder·  
-            armazenar e quais aÁıes ele poder· executar com as suas informaÁıes
-        
-            Os 4 conceitos b·sicos da orientaÁ„o a objetos s„o:
-            1 - Classe (Consiste na definiÁ„o da entidade do mundo real, o molde)
-            2 - Objeto (Consiste no resultado criado a partir do molde)
-            3 - Atributo (Consiste nos informaÁıes que aquele objeto poder· conter)
-            4 - MÈtodos (Consiste nas aÁıes que aquele objeto poder· realiziar)
-        */
-        
+         * A programa√ß√£o orientada a objetos √© um paradigma de programa√ß√£o
+         * criado na decada de 60 a partir da linguagem de programa√ß√£o
+         * SmallTalk e que se difundiu amplamente nos dias atuais.
+         * 
+         * A POO (Programa√ß√£o Orientada a Objetos) foi criada para tentar
+         * aproximar o mundo real do mundo virtual: a id√©ia fundamental √©
+         * tentar simular o mundo real dentro do computador. Para isso, nada
+         * mais natural do que utilizar Objetos, afinal, nosso mundo √© composto
+         * de objetos.
+         * 
+         * Na POO o programador √© respons√°vel por moldar o mundo dos objetos,
+         * e explicar para estes objetos como eles devem interagir entre si.
+         * 
+         * Cada objeto possui suas pr√≥prias informa√ß√µes (atributos) e podem
+         * realizar um conjunto de a√ß√µes pr√© definidos(m√©todos). A intera√ß√£o
+         * entre objeto acontece exatamente quando um objeto "solicita" que
+         * o outro objeto execute uma de suas a√ß√µes(m√©todos).
+         * 
+         * Para ser criado o objeto precisa de um "molde" e esse molde √© a
+         * Classe, nela ser√£o descritas quais informa√ß√µes o objeto poder√°
+         * armazenar e quais a√ß√µes ele poder√° executar com as suas informa√ß√µes
+         * 
+         * Os 4 conceitos b√°sicos da orienta√ß√£o a objetos s√£o:
+         * 1 - Classe (Consiste na defini√ß√£o da entidade do mundo real, o molde)
+         * 2 - Objeto (Consiste no resultado criado a partir do molde)
+         * 3 - Atributo (Consiste nos informa√ß√µes que aquele objeto poder√° conter)
+         * 4 - M√©todos (Consiste nas a√ß√µes que aquele objeto poder√° realiziar)
+         */
+
         /*
-            Vamos imaginar o desenvolcimento de uma aplicaÁ„o que calcule o IMC
-            de uma pessoa.
-       
-            Para resolver esse problema de forma orientada a objeto, È
-            necess·rio refletir sobre qual entidade do mundo real eu quero 
-            respresentar dentro do meu algoritmo, nesse exemplo a pessoa. 
-            
-            ApÛs identificada da(s)entidade(s) do mundo real que eu vou modelar 
-            dentro do meu algoritmo È necess·rio identificar quais informaÁıes 
-            dessa entidade s„o relevante para a resoluÁ„o do meu problema, 
-            nesse caso, peso e altura da pessoa.
-            
-            Note que uma pessoa tem muitas outras informaÁıes alem dessas, porÈm
-            para a resoluÁ„o desse problema apenas essas informaÁıes s„o
-            necess·rias. 
-        
-            AlÈm de identificar quais informaÁıes da entidade
-            s„o pertinentes, È necess·rio identificar o que essa entidade poder·
-            fazer, nesse caso a pessoa calcular· seu prÛprio IMC.
-        
-            Vamos a soluÁ„o desse problema:
-            1 - De uma olhada na classe pessoa que pertence a esse projeto
-            2 - Abaixo È criada uma pessoa e definida as informaÁıes de peso e
-                altura dessa pessoa
-            3 - … solicitado que a pessoa faÁa o calculo do seu IMC
-        */
-        
-        //CriaÁ„o do objeto
+         * Vamos imaginar o desenvolcimento de uma aplica√ß√£o que calcule o IMC
+         * de uma pessoa.
+         * 
+         * Para resolver esse problema de forma orientada a objeto, √©
+         * necess√°rio refletir sobre qual entidade do mundo real eu quero
+         * respresentar dentro do meu algoritmo, nesse exemplo a pessoa.
+         * 
+         * Ap√≥s identificada da(s)entidade(s) do mundo real que eu vou modelar
+         * dentro do meu algoritmo √© necess√°rio identificar quais informa√ß√µes
+         * dessa entidade s√£o relevante para a resolu√ß√£o do meu problema,
+         * nesse caso, peso e altura da pessoa.
+         * 
+         * Note que uma pessoa tem muitas outras informa√ß√µes alem dessas, por√©m
+         * para a resolu√ß√£o desse problema apenas essas informa√ß√µes s√£o
+         * necess√°rias.
+         * 
+         * Al√©m de identificar quais informa√ß√µes da entidade
+         * s√£o pertinentes, √© necess√°rio identificar o que essa entidade poder√°
+         * fazer, nesse caso a pessoa calcular√° seu pr√≥prio IMC.
+         * 
+         * Vamos a solu√ß√£o desse problema:
+         * 1 - De uma olhada na classe pessoa que pertence a esse projeto
+         * 2 - Abaixo √© criada uma pessoa e definida as informa√ß√µes de peso e
+         * altura dessa pessoa
+         * 3 - √â solicitado que a pessoa fa√ßa o calculo do seu IMC
+         */
+
+        // Cria√ß√£o do objeto
         Pessoa objetoPessoa = new Pessoa();
-        
-        //Mudando as informaÁıes do objeto
+
+        // Mudando as informa√ß√µes do objeto
         objetoPessoa.peso = 67.3f;
         objetoPessoa.altura = 1.67f;
-        
-        //Solicitando que a pessoa calcule seu IMC
+
+        // Solicitando que a pessoa calcule seu IMC
         float imcPessoa = objetoPessoa.calcularIMC();
-              
-        System.out.println("O IMC da pessoa È: " + imcPessoa);
-        
+
+        System.out.println("O IMC da pessoa √©: " + imcPessoa);
+
         /*
-            Links de leituras:
-        
-            * https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264
-        */
-        //======================================================================
+         * Links de leituras:
+         * 
+         * https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/
+         * 9264
+         */
+        // ======================================================================
     }
-    
+
 }
