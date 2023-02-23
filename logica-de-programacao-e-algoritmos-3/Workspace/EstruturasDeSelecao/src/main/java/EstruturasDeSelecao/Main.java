@@ -61,7 +61,7 @@ public class Main {
         if (media >= 7) {
             System.out.println("Aprovado");
         } else {
-            System.out.println("Aprovado");
+            System.out.println("Reprovado");
         }
 
         //Exemplo de estrututa aninhada
